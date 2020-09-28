@@ -264,7 +264,6 @@ dependencies = [
 name = "rnotify"
 version = "0.1.0"
 dependencies = [
- "chrono",
  "getopts",
  "notify-rust",
 ]
