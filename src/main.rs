@@ -35,7 +35,7 @@ fn spawn_countdown_thread(notif: RNotification) -> JoinHandle<()> {
             .summary(&notif.title)
             .body(&notif.message)
             .icon(&notif.icon)
-            .appname("RNotify")
+            .appname("rnotify")
             .show().unwrap();
     })
 }
